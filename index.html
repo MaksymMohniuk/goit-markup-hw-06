@@ -77,34 +77,42 @@
               </svg>
             </button>
             <form class="window-form-field">
+              <p class="form-field-title">Залиште свої дані, ми вам передзвонимо</p>
               <div class="form-field">
-                <p class="form-field-title">залиште свої дані, ми вам передзвонимо</p>
                 <label for="name" class="form-label">Ім'я</label>
                 <input type="text" class="form-input" name="name" id="name"> 
-                <svg width="12" heght="12">
+                <svg width="12" height="12">
                   <use href="./images/symbol-defs.svg#icon-man"></use>
                 </svg>
-
-                <label for="tel" class="form-tel">Телефон</label>
-                <input type="tel" name="tel" id="tel">
-                <svg width="13" heght="13">
+              </div>
+              
+              <div class="form-field">
+                <label for="tel" class="form-label">Телефон</label>
+                <input type="tel" class="form-input" name="tel" id="tel">
+                <svg width="13" height="13">
                   <use href="./images/symbol-defs.svg#icon-phone"></use>
                 </svg>
-
-                <label for="mail" class="form-mail">Пошта</label>
-                <input type="email" name="mail" id="mail">
-                <svg width="15" heght="12">
+              </div>
+                
+<div class="form-fild">
+  <label for="mail" class="form-label">Пошта</label>
+                <input type="email" class="form-input" name="mail" id="mail">
+                <svg width="15" height="12">
                   <use href="./images/symbol-defs.svg#icon-envelope"></use>
                 </svg>
-
-                <label for="comment" class="form-comment">Коментар</label>
-                <textarea name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea>
-
-                <input type="checkbox" name="policy" id="policy">
-                <label for="policy">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label>
-
+</div>
+                
+<div class="form-fild">
+  <label for="comment" class="form-label">Коментар</label>
+  <textarea class="form-comment" name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea>
+</div>
+                
+<div class="comment-field">
+  <input type="checkbox" name="policy" id="policy">
+  <label for="policy" class="policy-label">Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label>
+</div>
+               
                 <button type="submit" class="form-btn">Відправити</button>
-                            </div>
             </form>
           </div>
         </div>
