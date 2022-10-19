@@ -742,6 +742,7 @@ padding: 40px;
 .form-field {
 display: flex;
 flex-direction: column;
+position: relative;
 }
 
 .comment-field {
@@ -766,6 +767,14 @@ line-height: 1.16;
 letter-spacing: 0.01em;
 color: var(--text-color-secondary);
 margin-bottom: 4px;
+}
+
+.form-icon {
+position: absolute;
+top: 50%;
+left: 15px;
+transform: translateY(-100%);
+fill: var(--main-text-color);
 }
 
 .form-input {
