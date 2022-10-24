@@ -484,7 +484,10 @@ box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   margin: 0 auto;
   display: flex;
   align-items: baseline;
-  gap: 70px;
+}
+
+.address-wrap {
+margin-right: 70px;
 }
 
 .footer-logo {
@@ -521,6 +524,10 @@ box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 .footer-list-item:last-child {
   margin-bottom: 0;
+}
+
+.social-links-wrap {
+margin-right: 93px;
 }
 
 .footer-title {
@@ -567,9 +574,11 @@ height: 50px;
 border: 1px solid rgba(255, 255, 255, 0.3);
 border-radius: 4px;
 margin-right: 12px;
+background-color: var(--background-color);
+padding-left: 16px;
 }
 
-.mail-address input::placeholder {
+.mail-address::placeholder {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.25;
@@ -591,6 +600,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 text-align: center;
+border-color: transparent;
 }
 
 .footer-mail-icon {
@@ -778,6 +788,10 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin-bottom: 20px;
+}
+
+.policy-link {
+color: var(--accent-color);
 }
 
 .form-field-title {
