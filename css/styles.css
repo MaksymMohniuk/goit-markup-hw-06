@@ -202,7 +202,7 @@ button {
 .hero-section {
   padding: 200px 0;
   justify-content: center;
-  background-image: url(../images/header-bg.jpg), linear-gradient(#c4c4c4, #c4c4c4);
+  background-image: linear-gradient(#c4c4c4, #c4c4c4), url(../images/header-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
